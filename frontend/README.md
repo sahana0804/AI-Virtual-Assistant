@@ -1,53 +1,71 @@
-# AI Virtual Assistant Frontend
+AI Virtual Assistant
 
-This is the frontend application for the AI Virtual Assistant, built with React and Vite. It provides a user-friendly interface for interacting with the AI assistant, including user authentication, customization options, and more.
+This is a full-stack AI Virtual Assistant application built with the MERN stack (MongoDB, Express.js, React, Node.js).
+It provides a seamless experience for interacting with the AI assistant through a modern frontend and a powerful backend.
 
-## Features
+Features
 
-- User authentication (Sign Up / Sign In)
-- Responsive design with mobile and tablet support
-- Custom cursor effects and typing animations
-- Tailwind CSS for styling
-- Integration with backend API
+User authentication (Sign Up / Sign In)
 
-## Installation
+AI-powered voice and text responses
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd frontend
-   ```
+Responsive design with mobile and tablet support
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+Custom cursor effects and typing animations
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+RESTful API integration between frontend and backend
 
-4. Open your browser and navigate to `http://localhost:5173`
+MongoDB database for storing user data
 
-## Build for Production
+Installation
 
-To build the application for production:
+Clone the repository:
 
-```bash
+git clone <repository-url>
+cd AI-Virtual-Assistant
+
+
+Setup backend:
+
+cd backend
+npm install
+npm start
+
+
+Setup frontend:
+
+cd frontend
+npm install
+npm run dev
+
+
+Open your browser and navigate to http://localhost:5173 for frontend.
+Backend runs on http://localhost:5000.
+
+Build for Production
+
+Frontend build:
+
+cd frontend
 npm run build
-```
 
-The built files will be in the `dist` directory.
 
-## Deployment
+The built files will be in the dist directory.
 
-This frontend can be deployed to platforms like Vercel, Netlify, or any static hosting service. Ensure the backend API is running and update the `serverUrl` in the context accordingly.
+Backend can be deployed on services like Render, Railway, or Heroku.
 
-## Technologies Used
+Deployment
 
-- React 19
-- Vite
-- Tailwind CSS
-- Axios for API calls
-- React Router for navigation
+Frontend: Deployable on Vercel, Netlify, or any static hosting service.
+
+Backend: Deployable on services like Render, Railway, or VPS.
+
+Ensure the backend API URL is correctly updated in the frontend context (serverUrl).
+
+Technologies Used
+
+Frontend: React 19, Vite, Tailwind CSS, Axios, React Router
+
+Backend: Node.js, Express.js, MongoDB, Mongoose
+
+Other: GitHub for version control, REST APIs
